@@ -28,8 +28,9 @@ class Walker
   
   void display()
   {
+    //colorMode(HSB);
     fill(0);
-    stroke(col,20,50);
+    stroke(col);
     ellipse(x,y,diam,diam);
   }
 }
