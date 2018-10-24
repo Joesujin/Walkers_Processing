@@ -1,4 +1,4 @@
-Walker w[] = new Walker[1000];
+Walker w[] = new Walker[300];
 //import processing.pdf.*;
 
 boolean rec = false;
@@ -11,7 +11,7 @@ void setup()
   }
   size (1920, 1080, P2D);
   background(0);
-  smooth(8);
+  smooth(10);
 }
 
 void draw()

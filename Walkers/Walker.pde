@@ -3,7 +3,7 @@ class Walker
   float x;
   float y;
   float col;
-  int diam = 20;
+  int diam = 50;
   
   Walker(float tempC)
   {
